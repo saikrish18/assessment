@@ -1,0 +1,81 @@
+/* Disperse.css */
+.disperse {
+    font-family: Arial, sans-serif;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .left-header {
+    color: rgb(216, 211, 211); 
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .right-header {
+    color: rgb(192, 188, 188);
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .input-container {
+    display: flex;
+    background-color: black;
+    color: rgb(170, 168, 168);
+    flex-grow: 1;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .input-box {
+    flex-grow: 1;
+    width: 589px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+    background-color: black;
+    color: white;
+    border-left: 1px solid #ccc;
+    line-height: 1.5;
+    min-height: 15rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .line-numbers {
+    flex-shrink: 0;
+    background-color: black;
+    padding: 1.5rem;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  
+  .line-number {
+    user-select: none;
+    padding: 0 0.1rem;
+  }
+  
+  .violet-button {
+    background-color: rgb(144, 99, 196);
+    color: white;
+    border: none;
+    padding: 0.5rem 18rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 4%;
+    border-radius: 50px;
+  }
